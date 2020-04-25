@@ -1,0 +1,130 @@
+header{
+    background: url('/assets/img/header-bg.jpg');
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 80px;
+}
+
+header nav{
+    width: 100%;
+    background-color: #1F1F1F;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 15px solid #A50A10;
+}
+header nav .logo{
+    background: url('/assets/img/logo.png');
+    background-size: cover;
+    width: 500px;
+    height: 100px;
+}
+header .menu{
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    transition: .6s ease-in all;
+}
+header .menu a{
+    color: #636363;
+    position: relative;
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header .menu li{
+    height: 100%;
+}
+header .menu a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 25px 0;
+    border-color: #A50A10 transparent transparent transparent;
+    position: absolute;
+    transform: translate(-50%, 0);
+    top: 0;
+    left: 50%;
+    transition: .2s all ease-in;
+}
+header .menu a:hover{
+    color: #A50A10;
+}
+header .menu a:hover::after{
+    border-width: 20px 25px 0
+}
+header .cardWrap{
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+header .cardWrap .card{
+    height: 100%;
+    width: 25%;
+    color: #fff;
+    padding: 20px 0 20px 70px;
+    position: relative;
+}
+header .cardWrap .card:first-child{
+    background-color: #A50A10;
+    height: 80%;
+}
+header .cardWrap .card:last-child{
+    background-color: #003770;
+}
+header .cardWrap .card h2{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+header .cardWrap .card h2::after{
+    display: block;
+    content: '';
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 3px;
+    margin-top: 60px;
+}
+header .cardWrap .card .description{
+    font-size: .9em;
+    width: 80%;
+}
+header .cardWrap .card .cardBtn{
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .8em;
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+}
+header .cardWrap .card .cardBtn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: .2s all ease-in-out;
+}
+header nav a.toggleBtn{
+    width: 20px;
+    height: 20px;
+    z-index: 1000;
+    background-color: #fff;
+    display: none;
+}
+header nav .activeMenu{
+    height: 100vh !important;
+}

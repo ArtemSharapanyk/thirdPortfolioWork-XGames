@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i");
+
+*{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent !important;
+}
+body{
+    font-size: 5em;
+    font-family: 'Lato';
+}
+ul li{
+    list-style: none;
+}
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
