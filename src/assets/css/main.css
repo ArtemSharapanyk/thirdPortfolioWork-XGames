@@ -8,6 +8,13 @@ body{
     font-size: 5em;
     font-family: 'Lato';
 }
+ul{
+    padding: 0;
+    margin: 0;
+}
+section{
+    padding:5% 0;
+}
 ul li{
     list-style: none;
 }

@@ -1,0 +1,124 @@
+.blog{
+    background-color: #131313;
+    color: #636363;
+    font-size: 1.7em;
+    padding-bottom: 0;
+}
+.blog .info h2{
+    color: #A50A10;
+    margin-bottom: 40px;
+}
+.blog .info h2 span{
+    font-weight: 400;
+    font-size: .8em;
+}
+.blog .info{
+    width: 60%;
+}
+.blog .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog .info p{   
+    font-size: .6em; 
+    margin: 30px 0;
+}
+.blog .info p:nth-of-type(1){   
+    margin-bottom: 70px;
+    color: #b3b3b3;
+    font-weight: bold;
+    font-size: .8em;
+}
+.blog .descriptionCol{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+.blog .descriptionCol img{
+    width: 30%;
+}
+.blog .postCol{
+    font-size: .7em;
+    width: 30%;
+}
+.blog article .date{
+    color: #A50A10;
+}
+.blog  article  .title{
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.blog  article{
+    padding-bottom: 80px;
+    margin-top: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.blog  .text{
+    font-size: .8em;
+}
+.blog  .moreNewsBtn{
+    font-size: .8em;
+    color: #fff;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.blog  .moreNewsBtn:hover{
+    color: #A50A10;
+}
+.blog  .moreNewsBtn .icon{
+    background: url('/assets/img/arrowWW.png') center center;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-right: 20px;
+}
+.blog .somePosts{
+    display: flex;
+    justify-content: space-around;
+    font-size: .7em;
+    width: 100%; 
+    background-color: #1F1F1F;
+    padding: 4% 0;
+    margin-top: 3%;
+}
+.blog .somePosts article{
+    width: 30%;
+    border-bottom: none !important;
+    display: flex;
+}
+.blog .somePosts .moreNewsBtn{
+    margin-top: 50px;
+}
+.blog .somePosts article{
+    position: relative;
+}
+.blog .somePosts  article > .iconWrap .icon{
+    width: 270px;
+    height: 270px;
+    background-size: cover;
+}
+.blog .somePosts article .plane{
+    background: url('/assets/img/icon5.png');
+}
+.blog .somePosts article .timer{
+    background: url('/assets/img/icon6.png');
+}
+.blog .somePosts article .mouse{
+    background: url('/assets/img/icon7.png');
+}
+.blog .somePosts  article .iconWrap{
+    height: 100%;
+    display: flex;
+}
+.blog .somePosts article .wrap{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+

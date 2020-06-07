@@ -1,0 +1,73 @@
+@media screen and (max-width: 4400px){
+    .services .card .cardDesc{
+        width: 70%;
+    }
+    .services .card .cardIcon .icon{
+        width: 245px;
+        height: 246px;
+    }
+}
+@media screen and (max-width: 3800px){
+    .services .card .cardIcon .icon{
+        width: 195px;
+        height: 196px;
+    }
+}
+@media screen and (max-width: 3000px){
+    .services .card .cardIcon .icon{
+        width: 120px;
+        height: 121px;
+    }
+    .services .card .cardIcon{
+        border-width: 12px;
+    }
+    .services .card .cardTitle{
+        margin: 25px 0;
+    }
+    .services .card .cardBtn{
+        padding: 20px 25px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 2500px){
+    .services .card .cardIcon{
+        padding: 40px;
+        border-width: 8px
+    }
+    .services .card .cardIcon .icon{
+        width: 80px;
+        height: 81px;
+    }
+}
+@media screen and (max-width: 1600px){
+    .services .card .cardBtn{
+        padding: 10px 15px;
+        font-size: .8em;
+    }
+}
+@media screen and (max-width: 1300px){
+    .services .card .cardIcon{
+        padding: 25px;
+        border-width: 4px
+    }
+    .services .card .cardIcon .icon{
+        width: 70px;
+        height: 73px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .services .card .cardTitle{
+        margin: 10px 0;
+    }
+    .services .card .cardBtn{
+       margin-top: 20px;
+    }
+    .services .card{
+        min-width: 200px;
+        margin-top: 20px;
+    }
+    .services .cardWrap{
+        flex-wrap: wrap;
+        justify-content: center
+    }
+}

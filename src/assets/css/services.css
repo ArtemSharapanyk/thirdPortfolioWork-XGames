@@ -1,0 +1,64 @@
+.services{
+    background-color: #1F1F1F;
+}
+.services .cardWrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.services .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    color: #636363;
+    text-align: center;
+    cursor: pointer;
+}
+.services .card:hover .cardIcon{
+    border-color: rgba(255, 255, 255, 0.6);
+}
+.services .card:hover .cardBtn{
+    background-color: #fff;
+    color: #b2171d;
+}
+.services .card .cardIcon .game{
+    background: url('/assets/img/gameIcon.png');
+}
+.services .card .cardIcon .reviews{
+    background: url('/assets/img/icon2.png');
+}
+.services .card .cardIcon .planet{
+    background: url('/assets/img/icon2.png');
+}
+.services .card .cardIcon .planet{
+    background: url('/assets/img/icon3.png');
+}
+.services .card .cardIcon .balloons{
+    background: url('/assets/img/icon4.png');
+}
+.services .card .cardIcon .icon{
+    background-size: cover;
+    width: 310px;
+    height: 320px;
+}
+.services .card .cardIcon {
+    padding: 100px;
+    border: 20px solid #3C3C3C;
+    border-radius: 50%;
+}
+.services .card .cardTitle{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 60px 0;
+}
+.services .card .cardBtn{
+    padding: 40px 45px;
+    background-color: #B2171D;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 60px;
+    font-weight: bold;
+}
