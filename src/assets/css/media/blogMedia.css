@@ -19,7 +19,7 @@
     .blog  article{
         padding-bottom: 30px;
     }
-    .blog article .title{
+    .blog article .title h6{
         margin-bottom: 20px;
     }
     .blog .somePosts article .moreNewsBtn{

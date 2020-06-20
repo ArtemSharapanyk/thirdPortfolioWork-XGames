@@ -45,7 +45,7 @@
 .blog article .date{
     color: #A50A10;
 }
-.blog  article  .title{
+.blog  article  .title h6{
     color: #fff;
     font-size: 1.2em;
     margin-top: 20px;

@@ -9,7 +9,10 @@ import './assets/css/services.css';
 import './assets/css/media/servicesMedia.css';
 
 import './assets/css/blog.css';
-import './assets/css/media/blogMedia.css'
+import './assets/css/media/blogMedia.css';
+
+import './assets/css/about.css';
+import './assets/css/media/aboutMedia.css';
 
 document.addEventListener('DOMContentLoaded', () => {
     let link = document.querySelectorAll('a');

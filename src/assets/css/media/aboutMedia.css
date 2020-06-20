@@ -1,0 +1,60 @@
+@media screen and (max-width: 7000px){
+    .aboutUs ul li{
+        width: 130px !important;
+        height: 130px !important;
+    }    
+}
+@media screen and (max-width: 5000px){
+    .aboutUs ul li{
+        width: 100px !important;
+        height: 100px !important;
+    }    
+}
+@media screen and (max-width: 4500px){
+    .aboutUs ul li{
+        width: 85px !important;
+        height: 85px !important;
+    }    
+}
+@media screen and (max-width: 3000px){
+    .aboutUs ul li{
+        width: 70px !important;
+        height: 70px !important;
+    }    
+}
+@media screen and (max-width: 2500px){
+    .aboutUs ul li{
+        width: 50px !important;
+        height: 50px !important;
+    }    
+}
+@media screen and (max-width: 2000px){
+    .aboutUs ul li{
+        width:40px !important;
+        height: 40px !important;
+    }    
+}
+@media screen and (max-width: 1400px){
+    .aboutUs ul li{
+        width:30px !important;
+        height: 30px !important;
+    }    
+}
+@media screen and (max-width: 600px){
+    .aboutUs ul li{
+        margin-left: 7px !important;
+    } 
+}
+@media screen and (max-width: 550px){
+    .aboutUs .infoBox{
+       flex-direction: column;
+       align-items: center;
+    } 
+    .aboutUs .infoBox .info{
+        width: 70%;
+        border-right: none
+    }
+    .aboutUs .infoBox .socialNetworks{
+        width: 70%;
+    }  
+}

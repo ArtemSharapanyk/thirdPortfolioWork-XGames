@@ -1,0 +1,52 @@
+.aboutUs{
+    background: #131313 no-repeat;
+    color: #ffffff;
+}
+.aboutUs .infoBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.aboutUs .info{
+    width: 40%;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 0 2%;
+}
+.aboutUs .desc{
+    color: #636363;
+}
+.aboutUs .socialNetworks{
+    margin-left: 2%;
+}
+.aboutUs .socialNetworks ul li{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: ease-in .2s;
+}
+.aboutUs .socialNetworks ul li:hover{
+    opacity: .7;
+}
+.aboutUs .socialNetworks ul{
+    display: flex;
+}
+.aboutUs .socialNetworks ul li.twiter{
+    background: url('/assets/img/twitter.gif');
+    background-size: cover;
+}
+.aboutUs .socialNetworks ul li.facebook{
+    background: url('/assets/img/facebook.gif');
+    background-size: cover;
+}
+.aboutUs .socialNetworks ul li.google{
+    background: url('/assets/img/google.gif');
+    background-size: cover;
+}
+.aboutUs .socialNetworks ul li.feed{
+    background: url('/assets/img/feed.gif');
+    background-size: cover;
+}
+.aboutUs .socialNetworks ul li:first-of-type{
+    margin-left: 0;
+}
