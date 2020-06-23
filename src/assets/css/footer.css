@@ -1,0 +1,42 @@
+footer{
+    padding: 4.5% 0;
+    background-color: #1F1F1F;
+    color: #fff;
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul li{
+    display: flex;
+    align-items: center;
+    width: 27%;
+    border-right: 1px solid #fff;
+}
+footer ul li:last-of-type{
+    border: none;
+}
+footer ul li .icon.house{
+    background: url('/assets/img/icon-address.png');
+    background-size: cover;
+    width: 140px;
+    height: 120px;
+}
+footer ul li .icon{
+    margin-right: 40px;
+}
+footer ul li .icon.email{
+    background: url('/assets/img/icon-email-hover.png');
+    background-size: cover;
+    width: 140px;
+    height: 135px;
+}
+
+footer ul li.logo{
+    background: url('/assets/img/logo.png');
+    background-size: cover;
+    width: 500px;
+    height: 100px;
+    display: block;
+}

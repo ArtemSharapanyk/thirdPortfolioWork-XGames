@@ -14,6 +14,9 @@ import './assets/css/media/blogMedia.css';
 import './assets/css/about.css';
 import './assets/css/media/aboutMedia.css';
 
+import './assets/css/footer.css';
+import './assets/css/media/footerMedia.css';
+
 document.addEventListener('DOMContentLoaded', () => {
     let link = document.querySelectorAll('a');
     let menu = require('./js/menu');
